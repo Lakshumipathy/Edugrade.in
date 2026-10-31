@@ -32,7 +32,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/EduGrade.in">
           <Routes>
 
             {/* LOGIN PAGE — NO SIDEBAR */}
